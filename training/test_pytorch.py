@@ -13,7 +13,7 @@ target_tensor = torch.tensor(target)
 
 # Plot the data
 # c is cener color, .scatter plots the graph
-plt.figure(figsize=(10, 6))
+plt.figure(figsize=(20, 6))
 plt.scatter(data[:, 0], data[:, 1], c="black", cmap=plt.cm.Set1, edgecolor='green')
 plt.xlabel('Sepal length')
 plt.ylabel('Sepal width')
