@@ -2,6 +2,10 @@ import torch
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 
+
+# checking if cocommits work
+
+
 # Load Iris dataset
 iris = load_iris()
 data = iris.data
